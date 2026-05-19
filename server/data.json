@@ -1,0 +1,103 @@
+{
+  "users": {
+    "jonig-XV3B": {
+      "id": "jonig-XV3B",
+      "phone": "+79999999999",
+      "name": "Devz",
+      "avatar": "🎰",
+      "telegramId": null,
+      "bankBalance": 9999999999999,
+      "casinoBalance": 0,
+      "portfolio": {},
+      "tasksDone": [],
+      "lastDaily": null,
+      "createdAt": 1779213301409
+    },
+    "L9he4psHdL": {
+      "id": "L9he4psHdL",
+      "phone": "",
+      "name": "Devz",
+      "avatar": "🎰",
+      "telegramId": null,
+      "bankBalance": 100,
+      "casinoBalance": 0,
+      "portfolio": {},
+      "tasksDone": [],
+      "lastDaily": null,
+      "createdAt": 1779213309050
+    },
+    "awuNgU-mam": {
+      "id": "awuNgU-mam",
+      "phone": "",
+      "name": "Devz",
+      "avatar": "🎰",
+      "telegramId": null,
+      "bankBalance": 100,
+      "casinoBalance": 0,
+      "portfolio": {},
+      "tasksDone": [],
+      "lastDaily": null,
+      "createdAt": 1779213309734
+    },
+    "H-MnJKNUkI": {
+      "id": "H-MnJKNUkI",
+      "phone": "",
+      "name": "Devz",
+      "avatar": "🎰",
+      "telegramId": null,
+      "bankBalance": 100,
+      "casinoBalance": 0,
+      "portfolio": {},
+      "tasksDone": [],
+      "lastDaily": null,
+      "createdAt": 1779213310129
+    },
+    "o7FZadAjYY": {
+      "id": "o7FZadAjYY",
+      "phone": "",
+      "name": "Гость",
+      "avatar": "🎰",
+      "telegramId": null,
+      "bankBalance": 100,
+      "casinoBalance": 0,
+      "portfolio": {},
+      "tasksDone": [],
+      "lastDaily": null,
+      "createdAt": 1779213311073
+    }
+  },
+  "stocks": [
+    {
+      "id": "nebula",
+      "name": "Nebula Tech",
+      "price": 194.78,
+      "change": -0.55
+    },
+    {
+      "id": "rush",
+      "name": "Rush Gaming",
+      "price": 98.33,
+      "change": 0.02
+    },
+    {
+      "id": "jet",
+      "name": "JetX Aero",
+      "price": 233.05,
+      "change": 1.06
+    },
+    {
+      "id": "crypto",
+      "name": "FakeCoin",
+      "price": 0.57,
+      "change": 0
+    },
+    {
+      "id": "gold",
+      "name": "Золото РФ",
+      "price": 7258.6,
+      "change": -0.89
+    }
+  ],
+  "qrPending": {},
+  "history": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "nebula-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "dependencies": {
+    "electron": "^32.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.nebula.casino",
+    "productName": "Nebula Casino",
+    "directories": { "output": "dist" },
+    "files": ["main.js", "preload.js"],
+    "win": {
+      "target": "portable",
+      "artifactName": "NebulaCasino.exe"
+    }
+  }
+}

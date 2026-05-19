@@ -1,0 +1,20 @@
+{
+  "name": "nebula-ecosystem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fake casino + Nebula Bank + Telegram Mini App (demo only, no real money)",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../web && npm install && cd ../desktop && npm install && cd ../bot && npm install",
+    "dev": "concurrently -n server,web -c blue,green \"npm run dev --prefix server\" \"npm run dev --prefix web\"",
+    "dev:desktop": "concurrently -n server,web,desk -c blue,green,magenta \"npm run dev --prefix server\" \"npm run dev --prefix web\" \"npm run start --prefix desktop\"",
+    "build:web": "npm run build --prefix web",
+    "start:server": "npm run start --prefix server",
+    "start:bot": "npm run start --prefix bot",
+    "start:desktop": "npm run start --prefix desktop",
+    "start": "npm run start:desktop",
+    "start:prod": "npm run build:web && npm run start:desktop"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
