@@ -70,32 +70,32 @@
     {
       "id": "nebula",
       "name": "Nebula Tech",
-      "price": 188.51,
-      "change": -0.86
+      "price": 187.63,
+      "change": -0.47
     },
     {
       "id": "rush",
       "name": "Rush Gaming",
-      "price": 91.75,
-      "change": 0.36
+      "price": 92.48,
+      "change": 0.8
     },
     {
       "id": "jet",
       "name": "JetX Aero",
-      "price": 240.41,
-      "change": -0.15
+      "price": 243.6,
+      "change": 1.33
     },
     {
       "id": "crypto",
       "name": "FakeCoin",
-      "price": 0.61,
-      "change": 0
+      "price": 0.62,
+      "change": 1.64
     },
     {
       "id": "gold",
       "name": "Золото РФ",
-      "price": 7637.63,
-      "change": 0.51
+      "price": 7690.91,
+      "change": 0.7
     }
   ],
   "qrPending": {},
